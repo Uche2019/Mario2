@@ -1,4 +1,4 @@
-package hw1;
+package java2022;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Main {
         Scanner mario = new Scanner(System.in);
         int height;
         do {
-            System.out.println("How tall do you want the tower? Enter # between 1 and 8: ");
+            System.out.println("Choose a height between 1 and 8: ");
             while (!mario.hasNextInt()) {
                 System.out.println("Invalid response, try again ");
                 mario.next();
